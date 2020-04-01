@@ -29,6 +29,7 @@ h2 {
     background: #fcdb00;
     color: #010101;
     padding-top: 60px;
+    padding-bottom: 100px;
 }
 
 .menu {
@@ -46,17 +47,50 @@ h2 {
 }
 
 .offer {
-
+    margin-top: 115px;
 }
 
 .offer__title {
     font-size: 32px;
+    margin-bottom: 15px;
 }
 
 .offer__intro {
     font-size: 20px;
+    line-height: 1.4em;
 }
 
 .offer__text {
     font-size: 16px;
+    margin-top: 15px;
+   color: #555;
+   width: 400px;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons__item {
+    margin-right: 30px;
+}
+
+.icons__item:last-child {
+    margin-right: 0px;
+}
+
+.icons__item a {
+    color: #000;
+    font-size: 42px;
+    transition: all 0.3s ease;
+}
+
+.icons__item a:hover {
+    text-decoration: none;
+    color: #4b4949;
+}
+
+.ipad {
+    display: block;
+    margin: 60px auto 0;
 }
